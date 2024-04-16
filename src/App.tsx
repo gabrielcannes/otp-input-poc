@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
+//criado para simular o index para que nao seja chamado duas vezes handle change e handle keydown
 let currentOtpIndex: number = 0;
 
 export default function App() {
